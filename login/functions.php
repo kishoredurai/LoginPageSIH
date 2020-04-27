@@ -72,7 +72,7 @@
 
 					$_SESSION['user'] = $logged_in_user;
 					$_SESSION['success']  = "You are now logged in";
-					header('location: admin/home.php');		  
+					header('location: admin/index.php');		  
 				}else if ($logged_in_user['user_type'] == 'worker'){
 					$_SESSION['user'] = $logged_in_user;
 					$_SESSION['success']  = "You are now logged in";
